@@ -1,0 +1,1 @@
+Absolute paths provide the complete location of a file or directory from the root directory. They start with / and specify all directories leading to the target file.\nRelative paths specify a location in relation to the current directory. They do not start with / and can use . to refer to the current directory or .. to refer to the parent directory.

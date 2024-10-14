@@ -1,0 +1,1 @@
+This directory contains answers and tasks regarding my studies about Git, Github and Linux Commands on the CLI provided by TECH4GIRLS & HACSA FOUNDATION.

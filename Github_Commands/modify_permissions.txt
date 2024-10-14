@@ -1,0 +1,8 @@
+To modify the permissions of a file so that only the owner can read and write to it, while the group and others can only read, use the following command:
+
+Chmod 644 file name 
+
+Replace `filename` with the actual name of your file. The permissions are represented as follows: 
+- `6` (owner): read (4) + write (2) = 6 
+- `4` (group): read (4) = 4 
+- `4` (others): read (4) = 4

@@ -1,0 +1,14 @@
+Seven directories commonly found in the root directory of a Linux system are: 
+1. /bin: Contains essential command binaries (executables). 
+
+2. /etc: Contains configuration files for the system and applications. 
+
+3. /home: The home directory for user accounts. 
+
+4. /lib: Contains shared libraries and kernel modules. 
+
+5. /usr: Contains user applications and utilities. 
+
+6. /var: Contains variable data files, such as logs and databases. 
+
+7. /tmp: A temporary directory for storing temporary files created by applications.

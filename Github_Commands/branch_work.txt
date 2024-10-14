@@ -1,0 +1,1 @@
+To create a branch, use: git branch branch_name\n To switch to a branch, use: git checkout branch_name\n To publish a branch, use: git push origin branch_name.

@@ -1,0 +1,12 @@
+The following steps were followed to create a directory named Backend_Projects and two subdirectories named ProjectA and ProjectB:
+
+
+
+1. Create the main directory:
+   mkdir ~/Backend_Projects
+
+2. Navigate into the directory:
+   cd ~/Backend_Projects
+
+3. Create subdirectories:
+   mkdir ProjectA ProjectB

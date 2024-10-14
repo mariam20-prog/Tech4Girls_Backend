@@ -1,0 +1,35 @@
+File Ownership and Permissions in Linux In Linux, every file and directory has an owner and associated permissions that determine who can access or modify them. The key concepts include: 
+
+1. File Ownership: 
+- Each file is owned by a user (the file's owner) and a group. - The owner has the highest level of control over the file, while the group can have shared permissions. 
+- The concept of ownership allows for fine-grained control over who can access and modify files. 
+
+
+2. File Modes and Permissions: 
+- Permissions in Linux are defined for three categories of users: 
+- Owner: The user who owns the file. 
+- Group: Users who are members of the file's group. 
+- Others: All other users on the system. 
+
+- There are three types of permissions: 
+- Read (r): Allows the user to view the contents of the file. 
+- Write (w): Allows the user to modify the contents of the file. 
+- Execute (x): Allows the user to run the file as a program (for executable files) or to access a directory. 
+
+
+3*Permission Representation: 
+- Permissions are typically represented in a string format, such as `-rwxr-xr--`. 
+- The first character indicates the type (e.g., `-` for a file, `d` for a directory). 
+- The next three characters represent the owner's permissions (`rwx`). 
+- The following three characters represent the group's permissions (`r-x`). 
+- The last three characters represent others' permissions (`r--`). 
+
+
+4. **Applying Permissions**: 
+- Permissions can be modified using the `chmod` command. 
+- For example, to add execute permission for the owner of a file: ``` chmod u+x filename ``` 
+- To remove write permission for the group: ``` chmod g-w filename ``` 
+
+
+5. Viewing Permissions: 
+- You can view the permissions of files and directories using the `ls -l` command, which lists files with their associated permissions, ownership, and other details. Understanding file ownership and permissions is crucial for maintaining security and proper access control in a Linux environment.

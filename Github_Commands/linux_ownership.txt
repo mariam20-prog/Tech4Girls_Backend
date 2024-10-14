@@ -1,0 +1,7 @@
+The three groups of users in a Linux system are: 
+
+1. Owner: The user who owns the file or directory. The owner has the highest level of permission for that file or directory. 
+
+2. Group: A set of users who share the same permissions for a file or directory. The group can be assigned specific permissions that differ from those of the owner and others. 
+
+3. Others: All other users on the system who are not the owner or part of the group. Permissions for others are the least privileged compared to the owner and group.

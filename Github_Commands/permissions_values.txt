@@ -1,0 +1,11 @@
+In Linux, file permissions are represented using numeric values as follows: 
+
+- Read (r): 4 
+- Write (w): 2 
+- Execute (x): 1 
+
+These values are combined to represent different permission sets. For example: 
+- Read and Write (rw-): 4 + 2 = 6 
+- Read and Execute (r-x): 4 + 1 = 5 
+- Write and Execute (wx): 2 + 1 = 3 
+- Read, Write, and Execute (rwx): 4 + 2 + 1 = 7

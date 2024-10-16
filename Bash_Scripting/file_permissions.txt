@@ -1,0 +1,20 @@
+1. -rw-r--r--: This is the file permissions string.
+
+The first character - indicates this is a regular file (not a directory or link).
+The next three characters rw- show the owner's permissions (read and write, but not execute).
+The next three r-- show the group's permissions (read only).
+The last three r-- show everyone else's permissions (read only).
+
+
+2. 1: This is the number of hard links to the file.
+
+3. userhacsa: This is the username of the file's owner.
+4. userhacsa: This is the name of the group that owns the file.
+5. 70: This is the size of the file in bytes.
+6. Oct 14 10:00: This is the date and time when the file was last modified.
+
+  Oct 14 is October 14th.
+  10:00 is the time (10:00 AM).
+
+
+7. script.sh: This is the name of the file.
